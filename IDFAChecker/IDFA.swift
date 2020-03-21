@@ -13,7 +13,7 @@ import AdSupport
 class IDFA: ObservableObject {
     @Published var uuidString: String = "Limit Ad Tracking"
     
-    func retreive() {
+    func retrieve() {
         let manager = ASIdentifierManager.shared()
         if manager.isAdvertisingTrackingEnabled {
             uuidString = manager.advertisingIdentifier.uuidString

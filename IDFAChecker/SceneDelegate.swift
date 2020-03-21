@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         let idfa = IDFA()
-        idfa.retreive()
+        idfa.retrieve()
         
         // Create the SwiftUI view that provides the window contents.
         let contentView = ContentView().environmentObject(idfa)
