@@ -7,15 +7,18 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
+    @EnvironmentObject var idfa: IDFA
+
     var body: some View {
-        Text("Hello, World!")
+        Text(idfa.uuidString)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(IDFA())
     }
 }

@@ -14,6 +14,8 @@
 		08AF3ACF242644B8003F39EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AF3ACE242644B8003F39EA /* Preview Assets.xcassets */; };
 		08AF3AD2242644B8003F39EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AF3AD0242644B8003F39EA /* LaunchScreen.storyboard */; };
 		08AF3ADD242644B8003F39EA /* IDFACheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AF3ADC242644B8003F39EA /* IDFACheckerTests.swift */; };
+		08AF3AEB2426521F003F39EA /* IDFA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AF3AEA2426521F003F39EA /* IDFA.swift */; };
+		08AF3AEC2426521F003F39EA /* IDFA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AF3AEA2426521F003F39EA /* IDFA.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 		08AF3AD8242644B8003F39EA /* IDFACheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDFACheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08AF3ADC242644B8003F39EA /* IDFACheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDFACheckerTests.swift; sourceTree = "<group>"; };
 		08AF3ADE242644B8003F39EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08AF3AEA2426521F003F39EA /* IDFA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDFA.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 				08AF3AD0242644B8003F39EA /* LaunchScreen.storyboard */,
 				08AF3AD3242644B8003F39EA /* Info.plist */,
 				08AF3ACD242644B8003F39EA /* Preview Content */,
+				08AF3AEA2426521F003F39EA /* IDFA.swift */,
 			);
 			path = IDFAChecker;
 			sourceTree = "<group>";
@@ -209,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08AF3AC6242644B5003F39EA /* AppDelegate.swift in Sources */,
+				08AF3AEB2426521F003F39EA /* IDFA.swift in Sources */,
 				08AF3AC8242644B5003F39EA /* SceneDelegate.swift in Sources */,
 				08AF3ACA242644B5003F39EA /* ContentView.swift in Sources */,
 			);
@@ -219,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08AF3ADD242644B8003F39EA /* IDFACheckerTests.swift in Sources */,
+				08AF3AEC2426521F003F39EA /* IDFA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
